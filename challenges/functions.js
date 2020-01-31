@@ -45,6 +45,10 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
+// The nestedFunction can access the variable internal due to global scope. Although the function is nested, it is nested within
+// the variable that's trying to access it. If it was nested within anoter function external to the current function, it would not be
+// able to access that function.
+
 // Explanation: 
 
 
